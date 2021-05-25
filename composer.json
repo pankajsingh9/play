@@ -1,0 +1,19 @@
+{
+    "name": "pankaj/playground",
+    "description": "playground for composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pankaj",
+            "email": "pankajaswalranikhet@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "Playground\\" : "src/"
+        }
+    }
+}
